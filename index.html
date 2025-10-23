@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CDFood - Cửa hàng thực phẩm</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+  
+  <!-- Mobile Menu Sidebar -->
+  <div class="mobile-menu-sidebar" id="mobileMenuSidebar">
+    <button class="mobile-menu-close" id="mobileMenuClose">×</button>
+    <div class="mobile-menu-header">
+      <div class="mobile-menu-logo">CDFood</div>
+      <div class="mobile-menu-tagline">Thực phẩm chất lượng</div>
+    </div>
+    <div class="menu">
+      <a href="#">🏠 Trang chủ</a>
+      <a href="#gioi-thieu">ℹ️ Giới thiệu</a>
+      <a href="#san-pham">🛒 Sản phẩm</a>
+      <a href="#tin-tuc">📰 Tin tức</a>
+      <a href="#lien-he">📞 Liên hệ</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container topbar">
+      <nav class="nav">
+        <div class="menu">
+          <a href="#">Trang chủ</a>
+          <a href="#gioi-thieu">Giới thiệu</a>
+          <a href="#san-pham">Sản phẩm</a>
+          <a href="#tin-tuc">Tin tức</a>
+          <a href="#lien-he">Liên hệ</a>
+        </div>
+      </nav>
+      <div class="logo">CDFood</div>
+      <div class="search-wrapper">
+        <div class="search">
+          <span>🔎</span>
+          <input placeholder="Bạn cần tìm gì?" />
+        </div>
+        <div class="actions">
+          <!-- <button class="icon-btn menu-toggle">☰</button> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner-section">
+    <div class="banner-slider">
+      <img src="img/baner1.png" alt="Banner 1" class="banner-img active" />
+      <img src="img/baner2.png" alt="Banner 2" class="banner-img" />
+      <img src="img/baner3.png" alt="Banner 3" class="banner-img" />
+    </div>
+  </section>
+
+  <main class="container">
+
+    <!-- Weekly deals -->
+    <section class="section" id="san-pham">
+      <h2 class="title">Ưu đãi trong tuần</h2>
+      <div class="hero">
+        <div class="cards">
+          <!-- Card 1 -->
+          <article class="card">
+            <div class="tag">CDFood</div>
+            <div class="thumb">
+              <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=800&auto=format&fit=crop" alt="Product" />
+            </div>
+            <div class="name">Bánh gạo cắt MIR 500gr</div>
+            <div class="stars" data-stars="5">★★★★★</div>
+            <div class="price">Giá: Liên hệ</div>
+          </article>
+          <!-- Card 2 -->
+          <article class="card">
+            <div class="tag">CDFood</div>
+            <div class="thumb">
+              <img src="https://images.unsplash.com/photo-1546549039-49f9b2676e32?q=80&w=800&auto=format&fit=crop" alt="Product" />
+            </div>
+            <div class="name">Bánh gạo nhân phô mai MIR 500gr</div>
+            <div class="stars" data-stars="5">★★★★★</div>
+            <div class="price">Giá: Liên hệ</div>
+          </article>
+          <!-- Card 3 -->
+          <article class="card">
+            <div class="tag">CDFood</div>
+            <div class="thumb">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Product" />
+            </div>
+            <div class="name">Bánh gạo nhân xúc xích Sannadie 500gr</div>
+            <div class="stars" data-stars="5">★★★★★</div>
+            <div class="price">Giá: Liên hệ</div>
+          </article>
+          <!-- Card 4 -->
+          <article class="card">
+            <div class="tag">CDFood</div>
+            <div class="thumb">
+              <img src="https://images.unsplash.com/photo-1543340713-8ec4d8b18dfb?q=80&w=800&auto=format&fit=crop" alt="Product" />
+            </div>
+            <div class="name">Cà chua Paste Rosso</div>
+            <div class="stars" data-stars="5">★★★★★</div>
+            <div class="price">Giá: Liên hệ</div>
+          </article>
+          <!-- Card 5 -->
+          <article class="card">
+            <div class="tag">CDFood</div>
+            <div class="thumb">
+              <img src="https://images.unsplash.com/photo-1548365328-8b84998b83a1?q=80&w=800&auto=format&fit=crop" alt="Product" />
+            </div>
+            <div class="name">Pizza nhân nhồi Chicago size 16</div>
+            <div class="stars" data-stars="5">★★★★★</div>
+            <div class="price">Giá: Liên hệ</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Category strip -->
+  <section class="category-strip">
+    <div class="container row">
+      <a href="#pho-mai-mozzarella" class="cat"><div class="icon">🧀</div><span>Phô mai mozzarella</span></a>
+      <a href="#bot-pho-mai" class="cat"><div class="icon">🥛</div><span>Bột Phô Mai</span></a>
+      <a href="#dong-lanh" class="cat"><div class="icon">❄️</div><span>Thực phẩm Đông lạnh</span></a>
+      <a href="#bot-gia-vi" class="cat"><div class="icon">🌶️</div><span>Bột gia vị</span></a>
+      <a href="#vien-tha-lau" class="cat"><div class="icon">🍲</div><span>Viên thả lẫu</span></a>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- Section 1: Phô mai mozzarella -->
+    <section class="section" id="pho-mai-mozzarella">
+      <h3 class="section-title">Phô mai mozzarella</h3>
+      <div class="grid">
+        <!-- Thêm sản phẩm của bạn ở đây. Ví dụ bên dưới -->
+        <!-- Copy article bên dưới, thay tên file ảnh và tên sản phẩm -->
+      </div>
+    </section>
+
+    <!-- Section 2: Bột Phô Mai -->
+    <section class="section" id="bot-pho-mai">
+      <h3 class="section-title">Bột Phô Mai</h3>
+      <div class="grid">
+        <!-- Thêm sản phẩm của bạn ở đây -->
+      </div>
+    </section>
+
+    <!-- Section 5: Viên thả lẫu -->
+    <section class="section" id="vien-tha-lau">
+      <h3 class="section-title">Viên thả lẫu</h3>
+      <div class="grid">
+        <!-- Thêm sản phẩm của bạn ở đây -->
+        <!-- VÍ DỤ MẪU:
+        <article class="product">
+          <div class="thumb"><img src="products/vien-tha-lau/vien-tha-lau-bo.jpg" alt="Viên thả lẫu bò" /></div>
+          <div class="name">Viên thả lẫu bò</div>
+          <div class="stars" data-stars="5">★★★★★</div>
+          <div class="price">Giá: 80.000đ</div>
+        </article>
+        -->
+      </div>
+    </section>
+    <!-- Section 3: Thực phẩm Đông lạnh -->
+    <section class="section" id="dong-lanh">
+      <h3 class="section-title">Thực phẩm Đông lạnh</h3>
+      <div class="grid">
+        <!-- Thêm sản phẩm của bạn ở đây -->
+      </div>
+    </section>
+
+    <!-- Section 4: Bột gia vị -->
+    <section class="section" id="bot-gia-vi">
+      <h3 class="section-title">Bột gia vị</h3>
+      <div class="grid">
+        <!-- Thêm sản phẩm của bạn ở đây -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container cols">
+      <div>
+        <div class="logo">CDFood</div>
+        <div>Cửa hàng thực phẩm trực tuyến hàng đầu</div>
+        <small>© 2025 CDFood. Tất cả quyền được bảo lưu.</small>
+      </div>
+      <div>
+        <strong>Danh mục</strong>
+        <div>Phô mai</div>
+        <div>Thực phẩm ăn vặt</div>
+        <div>Thực phẩm Châu Âu</div>
+      </div>
+      <div>
+        <strong>Liên hệ</strong>
+        <div>📞 0796579745</div>
+        <div>✉ cdfood@gmail.com</div>
+      </div>
+      <div class="social">
+        <strong>Theo dõi</strong>
+        <div><a href="#">Facebook</a><a href="#">Instagram</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main/app.js"></script>
+</body>
+</html>

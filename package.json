@@ -1,0 +1,11 @@
+{
+  "name": "cdfood-website",
+  "version": "1.0.0",
+  "description": "CDFood - Website bán thực phẩm",
+  "scripts": {
+    "scan": "node scan-products.js"
+  },
+  "keywords": ["cdfood", "products", "website"],
+  "author": "CDFood",
+  "license": "ISC"
+}
