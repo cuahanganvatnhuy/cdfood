@@ -113,15 +113,10 @@ document.addEventListener('DOMContentLoaded', function() {
         <span class="product-category">${formatCategoryName(category)}</span>
         <h3 class="product-name" title="${productName}">${productName}</h3>
         <div class="product-actions">
-        <span class="product-contact">Liên hệ</span>
-       
-      </div>
+          <span class="product-contact">Liên hệ</span>
+        </div>
       </div>
     `;
-    
-    // Add event listener for add to cart button
-    const addToCartBtn = productCard.querySelector('.add-to-cart');
-    addToCartBtn.addEventListener('click', () => addToCart(category, index));
     
     return productCard;
   }
