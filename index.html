@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CDFood - Cửa hàng thực phẩm</title>
   <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/products.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -36,7 +39,7 @@
         <div class="menu">
           <a href="#">Trang chủ</a>
           <a href="#gioi-thieu">Giới thiệu</a>
-          <a href="#san-pham">Sản phẩm</a>
+          <a href="./products.html">Sản phẩm</a>
           <a href="#tin-tuc">Tin tức</a>
           <a href="#lien-he">Liên hệ</a>
         </div>
@@ -66,63 +69,7 @@
   <main class="container">
 
     <!-- Weekly deals -->
-    <section class="section" id="san-pham">
-      <h2 class="title">Ưu đãi trong tuần</h2>
-      <div class="hero">
-        <div class="cards">
-          <!-- Card 1 -->
-          <article class="card">
-            <div class="tag">CDFood</div>
-            <div class="thumb">
-              <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=800&auto=format&fit=crop" alt="Product" />
-            </div>
-            <div class="name">Bánh gạo cắt MIR 500gr</div>
-            <div class="stars" data-stars="5">★★★★★</div>
-            <div class="price">Giá: Liên hệ</div>
-          </article>
-          <!-- Card 2 -->
-          <article class="card">
-            <div class="tag">CDFood</div>
-            <div class="thumb">
-              <img src="https://images.unsplash.com/photo-1546549039-49f9b2676e32?q=80&w=800&auto=format&fit=crop" alt="Product" />
-            </div>
-            <div class="name">Bánh gạo nhân phô mai MIR 500gr</div>
-            <div class="stars" data-stars="5">★★★★★</div>
-            <div class="price">Giá: Liên hệ</div>
-          </article>
-          <!-- Card 3 -->
-          <article class="card">
-            <div class="tag">CDFood</div>
-            <div class="thumb">
-              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Product" />
-            </div>
-            <div class="name">Bánh gạo nhân xúc xích Sannadie 500gr</div>
-            <div class="stars" data-stars="5">★★★★★</div>
-            <div class="price">Giá: Liên hệ</div>
-          </article>
-          <!-- Card 4 -->
-          <article class="card">
-            <div class="tag">CDFood</div>
-            <div class="thumb">
-              <img src="https://images.unsplash.com/photo-1543340713-8ec4d8b18dfb?q=80&w=800&auto=format&fit=crop" alt="Product" />
-            </div>
-            <div class="name">Cà chua Paste Rosso</div>
-            <div class="stars" data-stars="5">★★★★★</div>
-            <div class="price">Giá: Liên hệ</div>
-          </article>
-          <!-- Card 5 -->
-          <article class="card">
-            <div class="tag">CDFood</div>
-            <div class="thumb">
-              <img src="https://images.unsplash.com/photo-1548365328-8b84998b83a1?q=80&w=800&auto=format&fit=crop" alt="Product" />
-            </div>
-            <div class="name">Pizza nhân nhồi Chicago size 16</div>
-            <div class="stars" data-stars="5">★★★★★</div>
-            <div class="price">Giá: Liên hệ</div>
-          </article>
-        </div>
-      </div>
-    </section>
+  
 
   </main>
 
@@ -213,6 +160,19 @@
       </div>
     </div>
   </footer>
+
+  <!-- Floating Social Buttons -->
+  <div class="floating-social">
+    <a href="https://zalo.me/0796579745" target="_blank" rel="noopener" class="social-btn zalo" title="Zalo">
+      <i class="fab fa-comment-dots"></i>
+    </a>
+    <a href="https://m.me/phimhay.ney" target="_blank" rel="noopener" class="social-btn messenger" title="Messenger">
+      <i class="fab fa-facebook-messenger"></i>
+    </a>
+    <a href="tel:079.657.9745" class="social-btn phone" title="Gọi ngay">
+      <i class="fas fa-phone"></i>
+    </a>
+  </div>
 
   <script src="main/app.js"></script>
 </body>

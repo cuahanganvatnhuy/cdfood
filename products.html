@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sản phẩm - CDFood</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/products.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+  
+  <!-- Mobile Menu Sidebar -->
+  <div class="mobile-menu-sidebar" id="mobileMenuSidebar">
+    <button class="mobile-menu-close" id="mobileMenuClose">×</button>
+    <div class="mobile-menu-header">
+      <div class="mobile-menu-logo">CDFood</div>
+      <div class="mobile-menu-tagline">Thực phẩm chất lượng</div>
+    </div>
+    <div class="menu">
+      <a href="index.html">🏠 Trang chủ</a>
+      <a href="#gioi-thieu">ℹ️ Giới thiệu</a>
+      <a href="products.html" class="active">🛒 Sản phẩm</a>
+      <a href="#tin-tuc">📰 Tin tức</a>
+      <a href="#lien-he">📞 Liên hệ</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container topbar">
+      <nav class="nav">
+        <div class="menu">
+          <a href="index.html">Trang chủ</a>
+          <a href="#gioi-thieu">Giới thiệu</a>
+          <a href="products.html" class="active">Sản phẩm</a>
+          <a href="#tin-tuc">Tin tức</a>
+          <a href="#lien-he">Liên hệ</a>
+        </div>
+      </nav>
+      <div class="logo">CDFood</div>
+      <div class="search-wrapper">
+        <div class="search">
+          <span>🔎</span>
+          <input placeholder="Bạn cần tìm gì?" />
+        </div>
+        <div class="actions">
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <h1 class="page-title">Danh sách sản phẩm</h1>
+      
+      <!-- Category Filter -->
+      <div class="category-filter">
+        <h2>Danh mục sản phẩm</h2>
+        <div class="category-list" id="categoryList">
+          <!-- Categories will be populated by JavaScript -->
+        </div>
+      </div>
+      
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Products will be populated by JavaScript -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container cols">
+      <div>
+        <div class="logo">CDFood</div>
+        <div>Cửa hàng thực phẩm trực tuyến hàng đầu</div>
+        <small>© 2025 CDFood. Tất cả quyền được bảo lưu.</small>
+      </div>
+      <div>
+        <strong>Danh mục</strong>
+        <div>Phô mai</div>
+        <div>Thực phẩm ăn vặt</div>
+        <div>Thực phẩm Châu Âu</div>
+      </div>
+      <div>
+        <strong>Liên hệ</strong>
+        <div>📞 0796579745</div>
+        <div>✉ cdfood@gmail.com</div>
+      </div>
+      <div class="social">
+        <strong>Theo dõi</strong>
+        <div><a href="#">Facebook</a><a href="#">Instagram</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main/app.js"></script>
+  <script src="js/products.js"></script>
+
+  <!-- Floating Social Buttons -->
+  <div class="floating-social">
+    <a href="https://zalo.me/0796579745" target="_blank" rel="noopener" class="social-btn zalo" title="Zalo">
+      <i class="fab fa-comment-dots"></i>
+    </a>
+    <a href="https://m.me/phimhay.ney" target="_blank" rel="noopener" class="social-btn messenger" title="Messenger">
+      <i class="fab fa-facebook-messenger"></i>
+    </a>
+    <a href="tel:079.657.9745" class="social-btn phone" title="Gọi ngay">
+      <i class="fas fa-phone"></i>
+    </a>
+  </div>
+</body>
+</html>
