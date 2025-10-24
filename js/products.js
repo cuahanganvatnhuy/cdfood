@@ -114,9 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <h3 class="product-name" title="${productName}">${productName}</h3>
         <div class="product-actions">
         <span class="product-contact">Liên hệ</span>
-        <button class="add-to-cart" data-product="${category}-${index}">
-          <i class="fas fa-cart-plus"></i> Thêm vào giỏ
-        </button>
+       
       </div>
       </div>
     `;
